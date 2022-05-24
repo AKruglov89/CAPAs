@@ -1,0 +1,510 @@
+Suggested CAPA,Type,CMMI Category
+use high order language unless low-level language is necessary for storage and timing efficiency.,Preventive,Technical Solution
+use 'top-down' hierarchical approach with parallel refinement of requirements and sub-functions.,Preventive,Technical Solution
+use specified control structures with no statement labels,Preventive,Technical Solution
+maximum of 100 executable statements per routine allowed,Preventive,Technical Solution
+formal and informal presentation of design and code by responsible person,Preventive,Validation
+review by checklist of standard topics and by sources of most common errors,Preventive,Validation
+force agreement on requirements,Enhancement,Requirements Management
+formal control of all changes,Enhancement,Requirements Management
+"enforce inspection methodology. full documentation, adequate time, space, preparation, eductation, control of inspection, analyze errors to cause, corrective action follow-up, 100% coverage, don't combine inspections, set re-inspection criteria.",Enhancement,Validation
+"analyze errors, determine 'where caused', update test libraries, improve inspections.",Enhancement,Validation
+re-do the current activities (or some of the activities) with more experienced staff,Corrective,Technical Solution
+"if the inadequately performed activity was a specification or design activity, extend the related activities, perhaps with more experienced staff.",Corrective,Technical Solution
+extend the timescales for subsequent specification and design activities.,Corrective,Technical Solution
+use more experienced staff for subsequent specification and design activities.,Corrective,Technical Solution
+extend the timescales for subsequent testing and debugging activities.,Corrective,Technical Solution
+intensify the testing criteria for subsequent testing activities.,Corrective,Technical Solution
+use more experienced staff for subsequent testing activities.,Corrective,Technical Solution
+replan project and re-estimate targets.,Corrective,Requirements Management
+"if the scope of the project has been underestimated, obtain more experienced staff.",Corrective,Requirements Management
+"if the scope has been overestimated, release experienced staff to other projects.",Corrective,Requirements Management
+stop current work and revert to activities of preceding stage.,Corrective,Project Planning
+"extend activities of previous stage into current stage, replanning effort and work assignment.",Corrective,Project Planning
+extend timescales for testing and debugging current stage because of anticipated additional latent faults from previous stage.,Corrective,Project Planning
+redesign the module into smaller components.,Corrective,Product Integration
+extend the timescales for testing the module.,Corrective,Product Integration
+"intensify the testing criteria for the module (for example increase the code, branch and lcsaj coverage requirements for the module).",Corrective,Product Integration
+use more experienced staff to continue the construction and testing of the module.,Corrective,Product Integration
+active participation of project system engineers who know the origin of requirements interpretations,Preventive,Requirements Developments
+check the interpretations of imprecisely defined terms,Preventive,Requirements Management
+audit the system for 'requirements embellishment',Preventive,Requirements Management
+look for over-generalization in downward allocation of derived requirements,Preventive,Requirements Developments
+remind the developer with or automate the process so that the developer cannot overlook detail using techniques such as checklists and common error lists.,Preventive,Technical Solution
+use cross-reference and product-logic documentation available in line to remind the developer with requirements so that the developer cannot overlook detail.,Preventive,Technical Solution
+"use tools that add automatic checks, such as compilers and post-compile module checkers.",Preventive,Technical Solution
+use templates or skeletons that guide the creation of a work product.,Preventive,Technical Solution
+use permanent reminders and warnings in product documentation.,Preventive,Technical Solution
+"use reminders in the form of newsletters, memoranda, and reminder notes.",Preventive,Technical Solution
+hold work sessions with peers to review and check one another's work,Preventive,Technical Solution
+"if schedule pressure is the cause of oversights, management should adjust their planning rates to allow more time in the schedule to do the work properly",Preventive,Technical Solution
+provide the appropriate level of education at the right time by delivering seminars and classes related to the product,Preventive,Organizational Training
+prepare a new-hire education checklist,Preventive,Organizational Training
+prepare tutorial articles in the product-area newsletters,Preventive,Organizational Training
+conduct education sessions on the new release functions,Preventive,Organizational Training
+liaison to receive communications from other areas where the product has dependencies and to pass on the information to others in the product area,Preventive,Integrated Project Management
+use of a conference disk to pass information to interested parties in a product area,Preventive,Integrated Project Management
+enhanced problem-tracking tool to include automatic notification of changes to affected parties,Preventive,Integrated Project Management
+use code spelling checker to automate an error-prone procedure,Preventive,Validation
+use tools that maintain a release's component list and automatically include it in the design and specification documents and in the build process,Preventive,Validation
+use variable-not-declared warning in the compiler to check for names that have been misspelled,Preventive,Validation
+"plan reviews: address the adequacy of project technical and management plans. the items to be evaluated include cost estimates, schedule estimates, quality criteria, deliverables lists, and proposed methods and tools.",Enhancement,Project Planning
+develop a checklist of common errors to detect them.,Enhancement,Project Planning
+"system design review: address the quality of the overall system (architectural) design. for large systems, both a preliminary and a critical design review may be held. traceability can be demonstrated with system verification diagrams, produceability can be analyzed using complexity measures.",Enhancement,Project Monitoring and Control
+having the customer participate in system design reviews helps ensure that all requirements are addressed.,Enhancement,Project Monitoring and Control
+software engineering notebook audits: verify quality related activities (like code reading and unit testing) performed by developers without the direct involvement of the spao. source listings and certifications for each unit and subsystem are stored in a sen (also called a unit development folder).,Enhancement,Validation
+"modify the design change process to specify an appropriate cutoff for further changes after a specific point in the process. thereafter, design changes should be handled as separate design items. implement a tool to provide automatic notification of design changes prior to the cutoff to all parties affected by the change.",Preventive,Requirements Management
+"implement a tool to automatically generate the module list for the build from the library system, using the date of last change of the modules or macros.",Preventive,Technical Solution
+"staffing with top talent, job matching, team building, key personnel agreements, cross training",Corrective,Integrated Project Management
+"detailed multisource cost and schedule estimation, design to cost, incremental development, software reuse, requirements scrubbing.",Corrective,Requirements Management
+"organization analysis, mission analysis, operations-concept formulation, user surveys and user participation, prototyping, early users’ manuals, off-nominal performance analysis, quality-factor analysis.",Corrective,Technical Solution
+"prototyping, scenarios, task analysis, user participation.",Corrective,Technical Solution
+"requirements scrubbing, prototyping, cost-benefit analysis, designing to cost.",Corrective,Requirements Management
+"high change threshold, information hiding, incremental development (deferring changes to later increments).",Corrective,Requirements Management
+"benchmarking, inspections, reference checking, compatibility analysis",Corrective,Integrated Project Management
+"reference checking, preaward audits, award-fee contracts, competitive design or prototyping, team-building.",Corrective,Integrated Project Management
+"simulation, benchmarking, modeling, prototyping, instrumentation, tuning.",Corrective,Measurement and Analysis
+"technical analysis, cost-benefit analysis, prototyping, reference checking.",Corrective,Measurement and Analysis
+"repeat inspections, teach-the-team sessions during main project",Corrective,Organizational Process Focus
+emphasize nonfunctional areas in succeeding phases,Corrective,Organizational Process Focus
+reinspect requirements document before proceeding further,Corrective,Organizational Process Focus
+consistent definition of source attribute values must be used in the future,Corrective,Organizational Process Focus
+future inspections should emphasize finding problems in recovery,Corrective,Organizational Process Focus
+complete design of component before proceeding further,Corrective,Organizational Process Focus
+future inspections should emphasize finding problems in the component,Corrective,Organizational Process Focus
+modify the architectural design,Enhancement,Organizational Process Focus
+modify the detailed design,Enhancement,Organizational Process Focus
+assign difficult components to experienced developers.,Enhancement,Organizational Process Focus
+marking a stress point for further review in the next iteration.,Enhancement,Organizational Process Focus
+provide extra testing effort for the indicated stress points.,Enhancement,Organizational Process Focus
+ensure that peer reviews are consistently conducted on all work products at all stages of development.,Enhancement,Verification
+expand the process to include the development and review of unit test plans.,Enhancement,Verification
+criteria should be defined for the successful completion of unit test.,Enhancement,Verification
+software is not allowed to go to the next level of test until successful completion of unit testing,Enhancement,Verification
+expand the process to include a dit (developmental integration testing) phase.,Enhancement,Verification
+this new phase included the planning and execution of tests in an environment where all of the software associated with the release is integrated into a single system. ,Enhancement,Verification
+let the developers to test their own software in a simulated operational environment using actual data from a hospital site.,Enhancement,Verification
+horizontal/vertical reading,Preventive,Requirements Developments
+"- investigate how much code changed during test (stability of modules)
+- plan more effort for regression test",Corrective,Validation
+identify a template for test planning,Preventive,Configuration Management
+scheduling & tracking to be done using ms project,Preventive,Integrated Project Management
+develop and maintain boks (body of knowledge) organize regular seminars,Preventive,Organizational Training
+"mentoring, identify mentors for all team members.",Preventive,Organizational Training
+training on communication skills,Preventive,Organizational Training
+training on business domain,Preventive,Organizational Training
+estimates/schedules to be verified before accepting,Preventive,Integrated Project Management
+process should be strictly followed,Preventive,Organizational Process Focus
+"1. review and update standards.
+2. prepare checklist for standards.",Preventive,Configuration Management
+"1. confirm work product's quality by coverage rate, experience of the author, reviewers, etc.; see if this can be duplicated in other parts of the project;
+2. revise defect prediction in down-stream activities; see if there are general process improvement lessons.",Corrective,Verification
+"1. examine training needs for author;
+2. consider reassigning future tasks (i.e., assign easier tasks only to the author)",Corrective,Organizational Training
+"1. ensure good  review or  testing  downstream (refer tailoring guidelines)
+2. increase estimates for system testing
+3. break the work product into smaller components",Corrective,Verification
+"1. convert group reviews of similar work products to one person reviews (refer tailoring guidelines)
+2. combine reviews (refer tailoring guidelines)",Corrective,Verification
+"check coverage rate; if too low, reschedule a review, perhaps with a different team",Corrective,Verification
+"1. schedule or conduct group review training
+2. re-review with a different team",Corrective,Organizational Training
+get the reference document reviewed and approved,Corrective,Technical Solution
+"1. analyze the defects, update review checklist, and inform developers
+2. schedule training",Corrective,Verification
+identify cause of minor defects; correct for future by suitably enhancing checklists and making authors aware of the common causes,Corrective,Casual Analysis and Resolution
+training organization members,Preventive,Organizational Training
+mentoring,Preventive,Organizational Training
+measurement training,Preventive,Organizational Training
+evangelizing,Preventive,Organizational Training
+raise awareness of the existence of resistant leaders,Preventive,Risk Management
+raising awareness of the benefits,Preventive,Risk Management
+raising awareness of the reasons and objectives of the change,Preventive,Risk Management
+align expectations with the goals of change,Preventive,Configuration Management
+respect the organizational culture,Preventive,Configuration Management
+identify level of opennes to change,Preventive,Configuration Management
+identify influential people,Preventive,Configuration Management
+map people impacted by changes,Preventive,Configuration Management
+plan for proper communication,Preventive,Organizational Training
+optimize the documentation generated in software projects,Preventive,Organizational Process Focus
+automate processes,Preventive,Organizational Process Focus
+monitor compliance with the process,Preventive,Organizational Process Focus
+allocate appropriate staff for the role,Preventive,Organizational Process Focus
+allocate experienced people to process groups,Preventive,Organizational Process Focus
+practice empathy,Preventive,Organizational Process Focus
+put support from senior management into practice,Preventive,Organizational Process Focus
+maintain a continuous improvement policy,Preventive,Organizational Process Focus
+maintain open dialogue between stakeholders,Preventive,Organizational Process Focus
+practice collaboration,Preventive,Organizational Process Focus
+promote collaborative work,Preventive,Organizational Process Focus
+promote the submission of suggestions for improvement,Preventive,Organizational Process Focus
+involve senior management at the start of improvement implementation,Preventive,Organizational Process Focus
+involve members of the organization in improvement initiatives,Preventive,Organizational Process Focus
+escalate to higher levels,Corrective,Integrated Project Management
+replacing non-collaborative people in key positions,Corrective,Integrated Project Management
+"traceability: focus on ensuring traceability between requirements to testing, use automated tools like doors",Preventive,Requirements Developments
+"requirements workshop: for clarity & common understanding of implicit and explicit requirements with all teams including testing, design overview meetings for critical modules/components (whiteboard discussion)",Preventive,Requirements Developments
+"requirements workshop: for clarity & common understanding of implicit and explicit requirements with all teams including testing, design overview meetings for critical modules/components (whiteboard discussion), functional matrix: represent requirements as scenarios with states and behaviour for use case.",Preventive,Requirements Developments
+training,Preventive,Organizational Training
+"confirm number of test cases of the module, and test the module again",Corrective,Verification
+code review of the module is conducted again,Corrective,Verification
+"confirm number of test cases of the subsystem, and test the subsystem again.",Corrective,Verification
+unit testing of the program size subsystem is conducted again,Corrective,Verification
+the module is tested again,Corrective,Verification
+testing is proceeded until the srgm estimates remaining defects as low,Corrective,Verification
+software should be designed to work in proper functional mode,Preventive,Technical Solution
+designing should be such that it runs in proper order,Preventive,Technical Solution
+algorithm logic is verified for accuracy. data structures and memory overflow is checked.,Preventive,Verification
+proper planning and execution of available resources,Preventive,Project Planning
+"active collaboration and communication between all project participants is emphasized. 
+therefore, all the teams should be involved in the development process from the beginning. in addition, the stakeholders should participate in activities requiring their presence.",Corrective,Integrated Project Management
+"considering the tenets of mst, unclear topics should be communicated in as much detail as possible using media supporting conveyance. 
+in this particular case, detailed specifications should be written for india and the information should be converged actively. effective convergence strategy was applied with india by daily tech calls.",Corrective,Integrated Project Management
+provide appropriate access rights to all participants from the beginning of the project.,Corrective,Integrated Project Management
+establish uniform policies to store and document information and follow these guidelines.,Corrective,Organizational Process Focus
+"once a project is completed, the team must ensure that the “what” and “why” of each software item are properly documented",Corrective,Technical Solution
+in the cases of parallel development of inter-dependent software modules set up a negotiation table to solve conflict between the development teams. using some software tools for supporting negotiations,Corrective,Organizational Process Definition
+make sure that the development team is aware of the cmmi-acq or iso12207 processes for negotiating with third parties.,Corrective,Organizational Process Definition
+make sure that testers are involved when negotiating with a third party for a potentially vulnerable software component,Corrective,Integrated Project Management
+plan organization-wide process reviews to detect isolated processes and to promote information flows between processes. post-mortems for detecting missing information,Corrective,Organizational Process Focus
+planned special budget items to support long lasting corrections or corrections that are likely to benefit many modules,Corrective,Project Planning
+"projects with strict deadlines are risky, and should be carefully monitored to avoid last minute unplanned activities. allow deadline spllages, enforce codee freezes on project. implement a more open scop negotiation process between teams involving a neutral judge.",Corrective,Risk Management
+team members should maintain a careful balance between the flows of information within formal development processes and informal human interactions.,Corrective,Organizational Process Focus
+"team members should make sure that knowledge is appropriately distributed amongst them.  for example, pair programming, code review are practices which can promote knowledge sharing.",Corrective,Organizational Training
+any intrusion into the team dynamics by outsiders should be done very carefully. to make sure the outsider has all the relevant information before intruding at the team level.,Corrective,Integrated Project Management
+"ensure required contents, especially include compliance to non-functional and performance requirements,",Corrective,Requirements Management
+improve requirements management and systems engineering process w.r.t. traceability process and capturing non-functional sw requirements;,Corrective,Requirements Management
+if requirements volatility of system is high and requirements inconsistency of the system is highthen quality risk of the system is very high,Preventive,Measurement and Analysis
+"increase usage of static and dynamic code analysis tools (coding standards checking, memory leak detec- tion, code coverage analysis)",Preventive,Configuration Management
+"better unit tests (higher test coverage, complete test specification, systematic case selection, better host test environment, test bed, test automation)",Preventive,Verification
+"extend training offers and attendance on architecture and application domain, improve systems design skills",Corrective,Organizational Training
+"analyze review culture and performance, improve review process",Corrective,Organizational Process Focus
+"increase process compliance, i.e., completeness of exit conditions of systems and software development process
+- study correlation of component measurements (size, defects, complexity) and process compliance
+-implement database system for all project-related data, supporting project tracking and reporting early warnings on process issues.
+",Corrective,Configuration Management
+"standard error- walkthrough of standards with developers,",Preventive,Organizational Process Definition
+"standard error-update coding standards for imports, naming, ui",Preventive,Organizational Process Definition
+"redundant code-trainings on domains (db, object model) ",Preventive,Organizational Training
+redundant code-code reading sessions,Preventive,Verification
+logic error -code reading sessions,Preventive,Verification
+logic error - do requirement walkthrough,Preventive,Requirements Management
+"logic error-trainings on domains (db, object model) ",Preventive,Organizational Training
+make analysis and fix the cause,Corrective,Casual Analysis and Resolution
+"place systems engineers in an environment where they are constantly required to recognise hazards, evaluate risk and take preventive action. reward engineers for good safety performance. develop a culture where poor safety performance is career limiting.",Preventive,Risk Management
+"plan, staff, direct and control all life cycle activities associated with a safety-related project",Preventive,Integrated Project Management
+confirm the existence of an operational safety management system in a development organisation and evaluate its effectiveness. ,Preventive,Organizational Process Performance
+identify hazardous situations that could lead to an accident.,Preventive,Risk Management
+perform causal analysis of safety incidents using modelling techniques such as fault trees,Preventive,Casual Analysis and Resolution
+evaluate the possible negative outcomes of hazards and compute the probability of occurrence. determine if perceived risks are acceptable to the organisation.,Preventive,Risk Management
+"identify system requirements, design solutions and manualnprocedures to reduce risk. justify risk reduction strategies through quantitative or qualitative means. determine required safety integrity levels.",Preventive,Requirements Developments
+"develop unambiguous, complete, correct, consistent and testable statements of safety requirements",Preventive,Requirements Developments
+"design and build safety-related systems in compliance with safety requirements, using semi formal models such as state engines and petri nets.",Preventive,Technical Solution
+determine that a safety related system will meet its required reliability goals using techniques such failure modes effects and criticality analysis.,Preventive,Validation
+"plan, solicit, select and administer the purchase of safety-related systems and services",Preventive,Configuration Management
+validate safety related systems against safety requirements.,Corrective,Validation
+"develop safety cases that present clear, comprehensive and defensible arguments that safety-related systems, as delivered, will be acceptably safe throughout their operational life",Preventive,Validation
+the customer must provide the safety culture. the customer must manage the contract in a proactive manner to ensure it does not have a contractor building a safety-critical system in a loss situation,Preventive,Risk Management
+uncompromising enforcement of the safety clauses in the contract through regular process audits and thorough review of submissions.,Preventive,Risk Management
+the state conducts a capability audit on all short listed contractors to verify their ability to perform and takes this step with extreme vigour prior to contract award.,Preventive,Risk Management
+customer performs a detailed cost inspection of bids. wbs.,Preventive,Risk Management
+if the customer is to be responsible for safety it must take responsibility for awarding and administering safety-related contracts,Preventive,Risk Management
+the customer takes responsibility for ongoing hazard identification with inhouse staff or consultants knowledgeable in the application domain.,Preventive,Risk Management
+customers must retain responsibility for application domain hazard analysis,Preventive,Risk Management
+evaluate the ability of an operator/developer/tester to respond to emergency situations,Preventive,Measurement and Analysis
+make manual emergency procedures simple.,Preventive,Organizational Process Definition
+automate complex hazard mitigation steps.,Preventive,Configuration Management
+conduct regular training and retraining.,Preventive,Organizational Training
+ensure that the winning bid has sufficient funds to properly cover compliance costs. ,Preventive,Supplier Agreement Management
+review basis of project,Preventive,Integrated Project Management
+define success criteria,Preventive,Integrated Project Management
+change system asap,Corrective,Technical Solution
+change culture in customer organization,Corrective,Organizational Process Definition
+increase funding/reduce scope,Corrective,Project Monitoring and Control
+change project into smaller chunks,Preventive,Integrated Project Management
+alter cost/time-scale,Corrective,Integrated Project Management
+senior buyer executive officer to renegotiate,Corrective,Integrated Project Management
+change relationship,Preventive,Integrated Project Management
+increase resources or cancel project,Preventive,Integrated Project Management
+consult end users,Preventive,Validation
+increase resources (if possible),Corrective,Integrated Project Management
+reappraisal of tasks,Corrective,Project Monitoring and Control
+replace project manager / new project plan,Corrective,Integrated Project Management
+improve planning/new project manager,Corrective,Project Planning
+improve plans for subcontract,Preventive,Project Planning
+do not agree if it will bankrupt vendor,Preventive,Quantitative Project Management
+renegotiate contract/freeze changes to requirements,Preventive,Requirements Management
+change platform/choose hw and sw that can be used despite problems buffer problem,Corrective,Technical Solution
+add resources to catch up,Corrective,Integrated Project Management
+add resources/change procedures,Corrective,Integrated Project Management
+replace/discipline project manager,Preventive,Organizational Training
+recruit or realign staf,Corrective,Integrated Project Management
+revise company procedures as priority,Corrective,Organizational Process Definition
+revise company traceability standards,Corrective,Configuration Management
+change contract/cancel job,Preventive,Integrated Project Management
+either revise plan to prevent delays or buffer project to be unaffected by small changes in time-scale,Preventive,Project Planning
+freeze design early,Corrective,Technical Solution
+training programme and revision of supervision,Corrective,Organizational Training
+institute full review,Corrective,Organizational Process Focus
+implement new procedures,Preventive,Organizational Process Definition
+revise testing procedures to reflect problems encountered,Corrective,Organizational Process Definition
+reassess implications of nf to design,Preventive,Integrated Project Management
+institute change policy,Corrective,Organizational Process Definition
+change training regime,Corrective,Organizational Training
+radical change to project/cancel,Preventive,Integrated Project Management
+extra effort/change priorities,Corrective,Integrated Project Management
+measure benefit/correction action plan,Corrective,Project Planning
+urgent action to recover position,Corrective,Integrated Project Management
+renegotiate project objectives/ buffer problem make project insensitive to macro-economic changes,Preventive,Integrated Project Management
+use inspector routines which are public routines written to examine the value of each relevant attribute that otherwise will not be accessible,Corrective,Technical Solution
+use memento design pattern,Corrective,Technical Solution
+adopt encapsulation breaking mechanisms,Corrective,Technical Solution
+inspection. inspection has proven effective in defect management of partial or distributed implementations.,Corrective,Verification
+leaf class testing. this is a testing technique that evaluates the abstraction structure using its concrete implementations,Corrective,Verification
+"inspection. inspection techniques specialized to oo could focus on the algorithmic, initialization, and temporal characteristics of individual routines in a way that is not possible when testing",Corrective,Verification
+"context testing. this is the idea of giving up individual testing of the individual routines and instead testing them in the context of their operation and collaborations. this is of course risky, as the routines will only be tested in known contexts.",Corrective,Verification
+inspection,Corrective,Verification
+multi-table class-responsibilitycollaboration (crc).,Corrective,Technical Solution
+"a good deal of anticipation of potential problem areas, and lots of testing with a wide range of potential types is best.",Corrective,Technical Solution
+inspect the formal contracts,Corrective,Technical Solution
+redesign,Corrective,Technical Solution
+use of context testing,Corrective,Technical Solution
+"redesign, avoid mixing styles",Corrective,Technical Solution
+segregate styles,Corrective,Technical Solution
+avoid deeply nested hierarchies.,Corrective,Technical Solution
+use flattening tools,Corrective,Configuration Management
+avoid multiple inheritance,Corrective,Technical Solution
+some techniques such as evaluating against an explicit post-condition might be helpful but this is not a complete solution,Corrective,Casual Analysis and Resolution
+anthropomorphization through the use of crcs assists in clarifying the role of the server and its obligations.,Corrective,Technical Solution
+construct common dictionary using process element dictionary (ped),Preventive,Technical Solution
+set focus/goal using quality matrix,Preventive,Product Integration
+build consensus using state-behavior modeling ,Preventive,Integrated Project Management
+"cover model space using uml, formal specification (e.g., object z)",Preventive,Integrated Project Management
+cover functionality by use cases,Preventive,Integrated Project Management
+cover non-functional requirements in architecture,Preventive,Technical Solution
+validate requirements by requirements inspection,Corrective,Validation
+"verify requirements by requirements inspection, crc, formal methods",Corrective,Verification
+ensure traceability by building requirements traceability table (rtt),Preventive,Requirements Developments
+"cover design space by using architectural patterns, design patterns, formal derivation, contracts",Preventive,Technical Solution
+validate design by building  requirements traceability check (rtc),Corrective,Validation
+"verify design by building crc, formal proofs, design inspection,design simulation",Corrective,Verification
+ensure uniformity by using coding standards,Preventive,Technical Solution
+ensure traceability by building rtt,Preventive,Technical Solution
+"ensure design proximity by using rtt, feedback",Preventive,Technical Solution
+ensure accuracy by using pair programming,Preventive,Organizational Process Focus
+"defect identification by code inspection, static analysis, automated analysis",Corrective,Verification
+"failure detection by dynamic testing; specification testing, use case-based testing",Corrective,Verification
+"integration by integration testing (e.g., couple testing, pair-wisetesting or binary testing), regression testing",Corrective,Product Integration
+training should be given to the team members before starting the next phase or a new project. the training calendar and the trainings attended by the team can be tracked as a part of the project status review meeting.,Preventive,Organizational Training
+make available of trained and experienced resources for coding and testing.  plan for trained resources well in advance and if they are not available train the existing resources.  any risk on the availability of the trained resources should be tracked as a part of the risk management worksheet.,Preventive,Organizational Training
+generally introduction of new programming language should be known well in advance to the team and proper training should be given well in advance.,Preventive,Organizational Training
+a formal sign off from all business users who would handle the application should be mandated before starting the design phase,Preventive,Supplier Agreement Management
+frequent communications with customer will help to know his requirements,Preventive,Requirements Management
+using business analysts/domain professionals during requirement elicitation,Preventive,Requirements Developments
+requirement workshop (for clarity & common understanding of implicit & explicit requirements with all teams including testing),Preventive,Organizational Training
+discuss more about the boundary of the applications and granularity of the requirement.  the equivalent design conversion should be well documented in the design document and sign off should be received before starting the coding.,Preventive,Requirements Developments
+care should be taken in choosing right tool ,Preventive,Technical Solution
+"the design document should be consistent with requirements specification.
+the review should be carried out with a design review list as base and adequacy in review should be cross checked by the quality team or organisation design review team.",Preventive,Requirements Management
+training should be given in the usage of design tool,Preventive,Organizational Training
+most of the graphical defects appear similar across all projects.  maintain a defect database and run test cases through it before starting up with the project,Preventive,Verification
+a thorough check shall be done before delivering the artifact,Preventive,Verification
+customer review of artifacts and deliverables,Preventive,Verification
+feasible and obvious vision of expected system.,Preventive,Requirements Management
+apparent dissemination of all functions and information flow with expected operational input and output.,Preventive,Requirements Management
+complete and clear communicated data must be processed.,Preventive,Requirements Management
+the scope of specific operational input must be defined well.,Preventive,Requirements Management
+a “defect sink” must be formed to contain all types of requirement defect so that it may not affect the rest of the requirement.,Preventive,Requirements Management
+requirement changes must be traceable.,Preventive,Requirements Management
+cross-functional requirement data must be identified separately.,Preventive,Requirements Management
+requirement must be classified at granule level,Preventive,Requirements Management
+"all types of text, images, graphics, quantitative operations and expected functional characteristics must be noticeable.",Preventive,Requirements Management
+periodic scheduling must be there for preventing future defect.,Preventive,Requirements Management
+for defect mitigation there must be a proper checklist or prototype created by requirement analyst for identifying and resolving the defect.,Preventive,Requirements Management
+interdependent requirement defect must have the highest priority for mitigation.,Preventive,Requirements Management
+non-dependent requirement defect must have conditional priority among their domain.,Preventive,Requirements Management
+have a team of cross functional experts,Preventive,Project Monitoring and Control
+the business analyst (ba) should have got an extensive training (or) knowledge in the domain for which he is doing the analysis. ,Preventive,Organizational Training
+"the business analyst should be smart enough to ask right question (a formal checklist including the 3 w's - what, when and where would help) and perform an in-depth analysis to turn the vague customer business vision into formally documented requirements",Preventive,Requirements Management
+the business analyst should ensure that all the points discussed with the customers are factored in. he/she should not finalize the requirements till there is a common agreement with all the business stakeholders of the project,Preventive,Integrated Project Management
+an in-depth feasibility study by the project manager (pm) based on the customer requirements should be done ,Preventive,Requirements Management
+"if the pm envisages that the project cannot be built within the stipulated timeline, then the same has to be communicated to the customer and can request for more timeframe or the project can be built in phases.",Preventive,Integrated Project Management
+the pm can seek the help of the senior management (or) the quality team to decide whether to accept the customer deadline.,Preventive,Integrated Project Management
+the business analyst and the project manager should ensure that the requirements get formally reviewed by the end user. any deviation should be highlighted as a risk and it can be mitigated with the help of the senior management team for the project.,Preventive,Requirements Management
+"the requirements should be made to sign off properly, which will help in meeting expectations and having satisfied customers.",Preventive,Requirements Management
+the pm should employ a qualified business analyst.,Preventive,Organizational Training
+the pm should do a formal review of the requirements mapping and may ask an independent requirements review team to do a peer review.,Preventive,Requirements Management
+quality team should validate if the requirements checklist is followed by the ba. ,Preventive,Requirements Management
+the business analyst along with the project manager should freeze the scope of the project before starting the development.,Preventive,Configuration Management
+"any new change should undergo a strict configuration management process, by which the team can decide when to take up the new requirement.",Preventive,Configuration Management
+pm to seek help of other design experts in the organization and formalize the best design approach before starting the development of the project.,Preventive,Integrated Project Management
+a formal configuration management process to be followed to take up the new requirement in the next phase of the project ,Preventive,Configuration Management
+"as a part of the design discussion, architects from client end and team developing the interfaces (if it varies from the current design team) should be involved to conclude on the best design approach suitable for the project.",Preventive,Technical Solution
+quality team can cross check on the extent to which the design review is done (like the usage of formal design template of the organization and almost all sections of the doc should have sufficient design related details in it).,Preventive,Process and Product Quality Assurance
+"as a part of the project plan, it should be mandated for a design review at the customer end, to avoid issues during uat / implementation.",Preventive,Integrated Project Management
+pm should check if database normalization is done as a part of the design review.,Preventive,Integrated Project Management
+pm can seek the help of design experts in the organization to handle normalization.,Preventive,Integrated Project Management
+the pm should check for the reasons behind the shortage of time/resource and should take corrective actions.,Preventive,Integrated Project Management
+the quality team should find out the reason as why only certain sections are considered as mandatory and the reason should be justifiable.,Preventive,Process and Product Quality Assurance
+"pl should have prior experience in leading similar projects. if not, pm can assist in wbs.",Preventive,Organizational Training
+pm should review the wbs assigned by the pl and should take mitigation steps if he foresees any risk in it.,Preventive,Risk Management
+"skilled resources with technical work experience should be inducted into the project, if project has tight deadlines.",Preventive,Organizational Training
+"overall system has to be explained to all the team members by ba / pm / pl, so that everyone understands the project as a whole and take ownership to his/her code.",Preventive,Project Planning
+genuine code review should be done by the project lead and he/she should insist the team to follow coding standards as per the guidelines available.,Preventive,Integrated Project Management
+pl should understand that the need for review is to avoid defects at later stage which are very costlier for the project. quality team can do audits / checks to see if review is done formally.,Preventive,Process and Product Quality Assurance
+training should have been provided before the development start.,Preventive,Organizational Training
+test case development can be planned in parallel to the code development.,Preventive,Integrated Project Management
+the ba should run-through all possible scenarios of the actual business to the test team so that the testers can build a strong test case base for the project.,Preventive,Validation
+the pm shouldn't hide the facts as up to what level the testing is performed and should involve the client for a joint decision.,Preventive,Verification
+"if the project implementation deadline cannot be moved further, then the client should decide if the pretermission is sufficient for the implementation.",Preventive,Risk Management
+"while planning the project, the machine space restriction that the pm foresees has to highlight to the client, so that the client can either sponsor for the machine (or) plan for an extra round of testing at client side with similar h/w setup, before doing the actual implementation.",Preventive,Organizational Process Definition
+size of database required for testing has to be planned (by pm & pl) upfront and sufficient time should be given to the it team for db space allocation.,Preventive,Organizational Process Definition
+testers sound in test data analysis and setup has to be employed. they should work in close association with the business analyst to plan for an exact simulated test environment.,Preventive,Validation
+"while planning the project, the pm should decide ( along with the client), how this tests can be performed – whether it can be done as part of uat of the project.",Preventive,Project Planning
+testers with expertise with such type of testing can be used from other teams in the organization or existing tester can be trained on these type od testing.,Preventive,Organizational Training
+extensive training to ba in the domain in which he/she is working should be given,Preventive,Requirements Management
+customer timeline should be accepted after doing an in depth feasibility study of the project,Preventive,Requirements Management
+the requirements should be made to sign off properly by the end user,Preventive,Requirements Management
+quality team should validate if requirements checklist is followed by ba,Preventive,Requirements Management
+the ba and the pm should play a vital role to make the development team understand the customer domain and the project requirements.,Preventive,Requirements Management
+the ba along with the pm should freeze the scope of the project before starting the development.,Preventive,Requirements Management
+"pm should analyse all the risk factors related to the project like people, environment, scope, client, sub vendors, etc and all subcategories to it.",Preventive,Product Integration
+skilled programmers are to be employed for tasks in the critical path.,Preventive,Product Integration
+pm has to track in the project management tool and quality / senior management team should do periodic reviews on this.,Preventive,Product Integration
+pm should have the overall control of the project,Preventive,Product Integration
+pm should plan for human and non-human resources in the initial planning stage of the project itself.,Preventive,Product Integration
+pm / pl should always have some buffer while planning for external dependencies.,Preventive,Product Integration
+pm and design experts in the organization should formalize the best design approach before starting the development of the project,Preventive,Technical Solution
+any new requirement which has impact on the design should undergo formal configuration management process to take up the new requirement in the next phase of the project.,Preventive,Technical Solution
+the quality team should find out the reason as why only certain sections are considered as mandatory and the reason should be justifiable,Preventive,Technical Solution
+pm can seek help of document writers to help the design team to write the unambiguous documents,Preventive,Technical Solution
+"pm should start mapping the traceability matrix on completion of the design document, so that these issues can be handled upfront.",Preventive,Technical Solution
+pl should find reasons for time constraints and should talk with pm to see if the estimated effort has to be relooked for sufficiency,Preventive,Process and Product Quality Assurance
+pm/quality team can cross check if pl is doing the code review or not.,Preventive,Process and Product Quality Assurance
+quality team can do audits / checks to see if review is done formally.,Preventive,Process and Product Quality Assurance
+training should have been provided before the development starts.,Preventive,Process and Product Quality Assurance
+the ba should run-through all possible scenarios of the actual business to the test team so that the testers can build a strong test case base for the project,Preventive,Validation
+"space restrictions, if any, should be handled by pm and client mutually.",Preventive,Validation
+"while planning the project, the pm should decide (along with the client) how these tests can be performed testers with expertise in such type of testing can be used from other teams in the organization",Preventive,Verification
+proper planning should be done before start of sdlc activities.,Preventive,Integrated Project Management
+"a new integrated software testing technique needs to be developed, which would quickly validate the application under test and ensure 100% coverage while upgrading the software. this can be done by having a test suite having minimal test cases ensuring maximum coverage.",Corrective,Technical Solution
+reduce or avoid cyclic dependencies in depelopment stage,Corrective,Technical Solution
+"use a traceability matrix, to trace each functional requirement till source code level.",Preventive,Requirements Developments
+trace the code to be released for testing after a formal review of the updated traceability matrix for each requirement. ,Preventive,Requirements Developments
+an independent review of the traceability matrix by the quality team should be mandated.,Preventive,Requirements Developments
+"before commencing with the actual coding, developers should document the program specification for each source code and it should be formally reviewed by the project lead.",Preventive,Requirements Developments
+the developer writing the code should do a self code review of all possible criteria.,Preventive,Technical Solution
+secondary code reviews by the peers or by the lead to be mandated.,Preventive,Validation
+the design perspective of each requirement should be understood and dependencies with external interfaces should be taken care.,Preventive,Requirements Developments
+"formal design review with key technical members of the project, interface teams, vendors (if any), system and database administrators should be mandated before proceeding with the coding phase.",Preventive,Technical Solution
+"the technical lead responsible for design should have overall knowledge about the project functionalities, technical implementation, system environment, deployment challenges, etc. to design a perfect solution for the project.",Preventive,Technical Solution
+"all negative scenarios and input of negative values should be handled in the source code. so, developer should document all such negative cases in the program specification and it should be reviewed by the technical lead for completeness.",Preventive,Technical Solution
+a general list of negative cases to be handled should be included as a part of the design document.,Preventive,Technical Solution
+"it is just not enough for the developer to understand his/her own code related functionality, but a knowledge on the overall project is essential to avoid such defects.",Preventive,Technical Solution
+"shared source code / common routine in the project has to be discussed, documented in detail and should be agreed between the stakeholders involved in integration. a final approved document on common routines is a must",Preventive,Technical Solution
+the document on workflow sequence should be written and agreed in the design phase.,Preventive,Technical Solution
+scenarios that may have a sequential execution must be well documented with sample use cases.,Preventive,Technical Solution
+"before starting the actual coding, a prototype of the application should be built to finalize on the look and feel of the application",Preventive,Technical Solution
+screens of the prototype can be embedded in the design document to understand the application better.,Preventive,Technical Solution
+senior technical developer along with the team can work in parallel with the technical lead to assist him in bringing such add on features in the design document.,Preventive,Technical Solution
+"scenarios on page reload, browser compatibility, etc can be referred from the knowledge base of the similar successfully implemented projects and this has to be documented in the design document for the project.",Preventive,Technical Solution
+program language support for various input devices has to be analyzed and documented in the design manual.,Preventive,Technical Solution
+"as a part of the requirement capture, details on the input devices to be supported should be well documented",Preventive,Requirements Developments
+assess and monitor the maintenance process,Enhancement,Project Monitoring and Control
+control variation in coding and code review processes,Enhancement,Organizational Process Focus
+"estimate and control defects, effort and schedule of testing process",Enhancement,Project Monitoring and Control
+evaluate process quality effectiveness,Enhancement,Process and Product Quality Assurance
+evaluate defect-detection effectiveness,Enhancement,Process and Product Quality Assurance
+evaluate inspection effectiveness,Enhancement,Process and Product Quality Assurance
+evaluate peer review effectiveness,Enhancement,Process and Product Quality Assurance
+manage effectiveness of defect removal activities,Enhancement,Process and Product Quality Assurance
+improve product quality,Enhancement,Process and Product Quality Assurance
+improve defect detection to reduce the number of delivered defects,Enhancement,Process and Product Quality Assurance
+improve software process effectiveness,Enhancement,Organizational Process Focus
+improve software reliability,Enhancement,Process and Product Quality Assurance
+increase customer satisfaction (by managing defects),Enhancement,Verification
+manage defect injection distribution in different kinds of activities,Enhancement,Process and Product Quality Assurance
+reduce defects in the products,Enhancement,Process and Product Quality Assurance
+reduce injected defect,Enhancement,Process and Product Quality Assurance
+reduce requirements volatility,Enhancement,Process and Product Quality Assurance
+understand and predict product quality,Enhancement,Process and Product Quality Assurance
+verify quality goals achievement,Enhancement,Process and Product Quality Assurance
+improve review process,Enhancement,Organizational Process Focus
+understand and predict inspection process,Enhancement,Organizational Process Focus
+manage system-testing activity,Enhancement,Validation
+monitor process efficiency,Enhancement,Organizational Process Performance
+evaluate coding efficiency,Enhancement,Organizational Process Performance
+evaluate defect-fixing efficiency,Enhancement,Organizational Process Performance
+evaluate design efficiency,Enhancement,Organizational Process Performance
+evaluate testing efficiency,Enhancement,Organizational Process Performance
+reduce operational costs,Enhancement,Integrated Project Management
+improve productivity,Enhancement,Organizational Process Focus
+minimize rework,Enhancement,Organizational Process Focus
+monitor project cost and schedule,Enhancement,Integrated Project Management
+reduce cost due to poor quality performance,Enhancement,Process and Product Quality Assurance
+improve estimation and planning,Enhancement,Project Planning
+understand software processes performance,Enhancement,Organizational Process Performance
+understand fixing process performance,Enhancement,Organizational Process Performance
+understand review process performance,Enhancement,Organizational Process Performance
+understand project management process performance,Enhancement,Organizational Process Performance
+understand recruitment process performance,Enhancement,Organizational Process Performance
+understand test process performance,Enhancement,Organizational Process Performance
+understand the effect of reviews as verification activities in test,Enhancement,Verification
+understand the effect of test design in test development,Enhancement,Validation
+understand the relationship between productivity and quality assurance activities during test development,Enhancement,Process and Product Quality Assurance
+verify changes in test process,Enhancement,Validation
+win the market competition,Enhancement,Organizational Innovation and Deployment
+monitor defects index,Enhancement,Project Monitoring and Control
+monitor process performance,Enhancement,Project Monitoring and Control
+monitor process quality,Enhancement,Project Monitoring and Control
+ask pos to start to regularly participate in sprint planning activities,Corrective,Integrated Project Management
+conduct po meetings,Corrective,Integrated Project Management
+emphasize on frequent communication among stakeholders (developers and pos),Corrective,Project Monitoring and Control
+provide clearly communicated priorities,Corrective,Requirements Developments
+hire pos with technical background,Corrective,Integrated Project Management
+increase the number of pos,Corrective,Integrated Project Management
+emphasize on po pairwork,Corrective,Integrated Project Management
+ask pos to increase their mutual collaboration during the development sprints,Corrective,Integrated Project Management
+emphasize on mitigating the lack of information flow or collaboration between the sales & requirements and development work,Corrective,Organizational Process Definition
+emphasize on collaboration practices and following the development process,Corrective,Integrated Project Management
+hire on-site customer representatives,Corrective,Integrated Project Management
+"emphasize on mitigating the lack of instructions and experience, and the complexity of the existing product",Corrective,Organizational Training
+ask pos to participate in the teams’ daily stand-up meetings,Corrective,Integrated Project Management
+hire a po team,Corrective,Integrated Project Management
+hire an team internal coordinator if an on-site po not available,Corrective,Integrated Project Management
+the organization can hire two new employees to work with the requirements specifications and usability designs,Corrective,Integrated Project Management
+apply wideband delphi estimation method,Corrective,Integrated Project Management
+"add time/tasks for design, then implementation will be more straightforward",Corrective,Integrated Project Management
+stick to the time-boxed values and do not accept more stories,Corrective,Integrated Project Management
+average story points from 10 sprints,Corrective,Integrated Project Management
+estimate bigger numbers and/or accept less,Corrective,Integrated Project Management
+follow kanban-style dev,Corrective,Integrated Project Management
+budget time for doing prototypes,Corrective,Integrated Project Management
+familiarising (developers) with the stories beforehand,Corrective,Integrated Project Management
+factor the uncertainty factor into the time estimation,Corrective,Integrated Project Management
+develop more clear requirements,Corrective,Integrated Project Management
+monitor the time that you spend and learn from your own estimates,Corrective,Integrated Project Management
+"when getting a new large story, allocate design and analysis story for the sprint",Corrective,Integrated Project Management
+make dedicated investigation task for features planned in next sprint,Corrective,Integrated Project Management
+estimation should be added on getting familiar with the project/component,Corrective,Integrated Project Management
+those who know about the area of the story should tell about the work that is needed,Corrective,Integrated Project Management
+include realistic amount of work in the sprint and leave some time to settle quality debt,Corrective,Integrated Project Management
+use previous sprint as a reference of how much story points we can handle,Corrective,Integrated Project Management
+enforce check-style on commit,Corrective,Integrated Project Management
+enforce the check-style checks before commit: add the plugin to the development tool,Corrective,Integrated Project Management
+reserve more time for testing when implementing new features,Corrective,Integrated Project Management
+fixing debt about param < component > verification,Corrective,Integrated Project Management
+developer should reserve more time for testing and be more careful with it,Corrective,Integrated Project Management
+remember to test all x methods/apis that are related to your changes,Corrective,Integrated Project Management
+"test, test, test..",Corrective,Integrated Project Management
+test the issue in the actual application at least once,Corrective,Integrated Project Management
+testing in different environment: make testing in local environment and then in dev-test,Corrective,Integrated Project Management
+more testing: the bigger the story is the more testing is required,Corrective,Integrated Project Management
+use cases: a better understanding what is asked and what is needed to be achieved,Corrective,Integrated Project Management
+create uml diagrams from source code to pin-point problems and design,Corrective,Integrated Project Management
+architecture spec is missing and needs to be made,Corrective,Integrated Project Management
+add system overview descriptions/depictions to intranet,Corrective,Integrated Project Management
+add stories to current sprint to add missing design document,Corrective,Integrated Project Management
+add javadoc tags wherever they are missing,Corrective,Integrated Project Management
+"fast diagrams: draw diagrams on whiteboard, take picture and attach it to story",Corrective,Integrated Project Management
+train developers to understand the requirement errors,Preventive,Requirements Developments
